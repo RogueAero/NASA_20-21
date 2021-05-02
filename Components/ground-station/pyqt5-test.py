@@ -13,7 +13,7 @@ class MainWindow (QMainWindow):
         self.l1 = QLabel(self)
         
         self.label2 = QLabel(self)
-        pixmap = QPixmap('test_image.jpg')
+        pixmap = QPixmap('map.png')
         smaller_pm = pixmap.scaled(400, 300, Qt.KeepAspectRatio)
         self.label2.setPixmap(smaller_pm)
         self.setCentralWidget(self.label2)
